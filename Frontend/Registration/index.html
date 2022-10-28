@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <nav class="ven">
+        <div><a href="login.html">Sign Up</a></div>
+        <div><a href="login.html"> Login</a></div>
+    </nav>
+  </head>
+  <body>
+    <h1 style="margin-top: 80px; text-align: center; color: white;" id="side">Registration Page</h1>
+    <section>
+      <div id="adrt">
+        <img src="imag.png" style="text-align:centre;"/>
+        <h2 style="text-align:center; opacity: 0.8;">Join Us</h2>
+        <p style="font: size 18px; opacity: 0.5;">Subscribe For Easy Tutorials On CSS.</p>
+        <button style="border-radius: 10px;">About Us</button>
+      </div>
+
+      <div id="Imji">
+        <form action="">
+          <table>
+            <tr>
+              <td><h2 style="margin-bottom: 30px; text-align: center;">Register Here</h2></td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" name="fname" placeholder="First Name" style="margin-bottom: 5px;" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" name="lname" placeholder="Last Name" style="margin-bottom: 5px;" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Username"
+                  style="margin-bottom: 5px;"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="tel" name="pnumber" placeholder="Phone Number" style="margin-bottom: 5px;" required />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="email" name="email" placeholder="Email" style="margin-bottom: 5px;" required />
+              </td>
+            </tr>
+            <tr>
+                <td>
+                  <input type="password" name="psw" placeholder="Password" style="margin-bottom: 5px;" />
+                </td>
+              </tr>
+            <tr>
+              <td>
+                <div><label for="gender">Gender:</label></div>
+                <div><select name="gender" id="gender" style="margin-bottom: 5px;">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option></div>
+                </select>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth:</label>
+                  <input type="date" name="dob" style="margin-bottom: 5px;" max="10/10/2004" min="10/10/1960">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <div><label for="colour">Favourite Colour:</label></div>
+                    <div><select name="colour" id="colour" style="margin-bottom: 40px;">
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="purple">Purple</option>
+                        <option value="aquamarine" selected>Aquamarine</option>
+                        <option value="orange">Orange</option></div>
+                </td>
+              </tr>
+            <tr>
+              <td><input type="submit" value="Register" style="margin-bottom: 20px;"/></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

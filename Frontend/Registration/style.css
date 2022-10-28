@@ -1,0 +1,71 @@
+body{
+    background-color: burlywood;
+  box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+section{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    text-align: center;
+}
+#Imji{
+    width:40%;
+    margin-top: 20px;
+    height: 100%;
+    padding: 100px 200px 100px 100px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: antiquewhite;
+}
+#2Cen{
+    text-align: center;
+}
+#adrt{
+    background-color: white;
+    margin-top: 40px;
+    padding: 150px;
+    margin-right: 100px;
+    margin-left: 350px;
+    border-radius: 20%;
+}
+hr{
+    color: purple;
+}
+#oli{
+    height: 100%;
+    margin-top: 150px;
+    padding: 30px;
+    background-color: beige
+}
+input{
+    max-width: 100%;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    text-align: right;
+    }
+#su{
+  width: 100%;
+  background-color: #f3e5ab;
+}
+#suc{
+  text-align: center;
+  width:400px;
+  height: 500px;
+  margin-top: 200px;
+  margin-left: 800px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 50px;
+}
+#len{
+  width: 150px;
+  height: 100px;
+}
